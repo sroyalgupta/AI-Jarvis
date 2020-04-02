@@ -12,7 +12,7 @@ def calculate_attendance():
     driver=webdriver.Chrome(path)
     driver.get("https://www.icloudemserp.com/tpct/")
     driver.find_element_by_xpath("/html/body/table/tbody/tr/td[1]/table/tbody/tr[5]/td/table/tbody/tr[2]/td/table/tbody/tr[1]/td[2]/input").send_keys("tu3f1718103")
-    driver.find_element_by_xpath("/html/body/table/tbody/tr/td[1]/table/tbody/tr[5]/td/table/tbody/tr[2]/td/table/tbody/tr[2]/td[2]/input").send_keys("29092001")
+    driver.find_element_by_xpath("/html/body/table/tbody/tr/td[1]/table/tbody/tr[5]/td/table/tbody/tr[2]/td/table/tbody/tr[2]/td[2]/input").send_keys("He he,you will not get it easily..")
     select = Select(driver.find_element_by_id('selectbrid'))
     select.select_by_visible_text("TEC")
 
